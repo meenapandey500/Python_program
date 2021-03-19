@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<TITLE>DETAILS OF STUDENTS</TITLE>
+</HEAD>
+<BODY>
+<center>
+<h1>Students Details</h1>
+<TABLE BORDER="1">
+<thead>
+<th>Enrollment No.</th>
+<th>Student Name </th>
+<th>Age</th>
+<th>City</th>
+</thead>
+{% for row in result %}
+            <tr>
+               <td>{{row[0]}}</td>
+               <td>{{row[1]}}</td>
+               <td> {{ row[2]}}</td>
+               <td>{{row[3]}}</td>	
+            </tr>
+         {% endfor %}
+    </table>
+    </center>
+</body>
+</html>

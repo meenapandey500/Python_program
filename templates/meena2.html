@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<TITLE> {{ title }}       </TITLE>
+</HEAD>
+<BODY>
+<marquee scrollamount=20>
+Hello  {{ username }}
+</marquee>
+<br/>
+{% if username=="Meena" : %}
+<h1>user name is correct</h1>
+{% else %}
+<h1>user name is incorrect</h1>
+{% endif %}
+</BODY>
+</HTML>

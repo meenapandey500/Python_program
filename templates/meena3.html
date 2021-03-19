@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<TITLE> {{ title }}       </TITLE>
+</HEAD>
+<BODY>
+<marquee scrollamount=20>
+Hello  {{ username }}
+</marquee>
+<br/>
+{% for u in username :  %}
+<h1> {{  u  }}  </h1>
+
+{% endfor %}
+
+</BODY>
+</HTML>

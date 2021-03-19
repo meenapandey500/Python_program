@@ -1,0 +1,29 @@
+<html>
+   <body>
+   
+      <table border = 1>
+         <thead>
+            <td>Name</td>
+            <td>Address>/td<
+            <td>city</td>
+            <td>Pincode</td>
+         </thead>
+         {% for row in rows.values() %}
+        <tr>
+      
+         <td> {{ row[value }} </td>
+        
+         <td>{{row["name"]}}</td>
+               <td> {{ row["age"]}}</td>
+               <td>{{row["city"]}}</td>	
+        </tr>
+     {% endfor %}
+
+
+        
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+      
+   </body>
+</html>

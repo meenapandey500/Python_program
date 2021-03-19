@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<TITLE>DETAILS OF LOGIN'S USER</TITLE>
+</HEAD>
+<BODY>
+<center>
+<h1>Login Table </h1>
+<table border="2">
+<tr>
+<th> User Id </th>
+<th> Password </th>
+</tr>
+{% for r in data : %}
+<tr>
+<td>{{ r[0] }}</td>
+<td>{{ r[1] }}</td>
+</tr>
+{% endfor %}
+</center>
+</BODY>
+</HTML>
