@@ -1,0 +1,4 @@
+
+ Python is a general purpose, high level and object oriented language
+ Python is a dynamic datatype 
+ Pytohn is a open data source 
